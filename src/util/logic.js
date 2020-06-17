@@ -24,7 +24,7 @@ function addNewNode (record) {
 
   const newNode  = { name, uniqueId, parentId: parentIdForNewNode };
 
-  Tree.push(newNode);
+  return newNode;
 } 
 
 function getListOfParents () {
